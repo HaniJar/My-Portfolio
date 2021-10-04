@@ -1,12 +1,15 @@
 body {
-  background-color: rgb(226, 152, 142);
+  background-image: url(girl.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-image: url(books.png);
+  background-image: url(background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -17,7 +20,7 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -25,7 +28,7 @@ li a {
 }
 
 li a:hover {
-  background-color: rgb(238, 191, 185);
+  background-color: rgb(151, 101, 43);
 }
 li a .active {
   background-color: rgb(163, 119, 119);
